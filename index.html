@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <main class="app">
+            <!-- SIDEBAR -->
+            <nav class="sidebar open">
+                <button class="header__button" id="sidebar-toggle">
+                    <span class="header__button-icon">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-menu"
+                        >
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </span>
+                </button>
+                <ul class="sidebar__content">
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Home</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">About</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- SIDEBAR -->
+            <!-- CENTER CONTENT -->
+            <section class="content">
+                <header class="content__header">
+                    <button id="sidepanel-toggle">
+                        <span class="header__button-icon">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-menu"
+                            >
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        </span>
+                    </button>
+                </header>
+                <section class="content__main">
+                    <div
+                        style="
+                            height: 15rem;
+                            background: white;
+                            border: 1px solid #c8c8c8;
+                            border-radius: 0.5rem;
+                            margin-bottom: 4px;
+                        "
+                    ></div>
+                    <div
+                        style="
+                            height: 15rem;
+                            background: white;
+                            border: 1px solid #c8c8c8;
+                            border-radius: 0.5rem;
+                            margin-bottom: 4px;
+                        "
+                    ></div>
+                    <div
+                        style="
+                            height: 40rem;
+                            background: white;
+                            border: 1px solid #c8c8c8;
+                            border-radius: 0.5rem;
+                            margin-bottom: 4px;
+                        "
+                    ></div>
+                </section>
+                <footer class="content_footer"></footer>
+            </section>
+            <!-- CENTER CONTENT -->
+            <!-- SIDE PANEL -->
+            <aside class="sidepanel">
+                <div class="sidepanel__content hide">
+                    <div class="sidepanel__header">Side panel</div>
+                    <div class="sidepanel__body"></div>
+                    <div class="sidepanel__footer"></div>
+                </div>
+            </aside>
+            <!-- SIDE PANEL -->
+        </main>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
